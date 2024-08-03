@@ -9,7 +9,6 @@ import {
   useRouter,
   useRouterState,
 } from "@tanstack/react-router";
-import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 
 export const Route = createRootRouteWithContext<RouterContext>()({
   loader: ({ context }) => {
@@ -54,7 +53,6 @@ function Root() {
       </div>
       <hr />
       <Outlet />
-      {/* <TanStackRouterDevtools /> */}
     </>
   );
 }
