@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --input: 240 5.9% 90%;
+}
+
+.shadow-input {
+  --tw-shadow-color: hsl(var(--input));
+  --tw-shadow: var(--tw-shadow-colored);
+}
